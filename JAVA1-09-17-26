@@ -1,0 +1,80 @@
+// JAVA PROGRAMMING LANGUAGE
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      System.out.println("Hello, World!");
+    }
+}
+
+//-- DECLARING VARIABLES OF DIFF DATA TYPES--
+//int-Whole Number
+//double -double precision of decimal Number
+//float-single precision of decimal Number
+//char-single character(singe quotes)
+//boolean- true or false
+//String - text of not primative
+
+int      age        =     20      ;//WHOLE NUMBER
+ ^        ^         ^      ^      ^
+types   variables   EQ    value   close tag
+
+double price = 40.55;//double precisions
+float weight = 85.9f// single precision using 'f'
+char grade = 'A';// single character
+Boolean isStudent = true;// True or false
+String name = "Alice"; // Not Primative text
+
+//--Output usings System.out.print1n---
+System.out.print1n("Name: "+name);
+System.out.print1n("Age: "+age);
+System.out.print1n("Price: "+price);
+System.out.print1n("Weight: "+weight);
+System.out.print1n("Grade: "+grade);
+System.out.print1n("Is Student: "+isStudent);
+
+//---Getting input using Scanner---
+import java.util.Scanner;
+public class Main {
+        public static void main(String[] args){
+System.out.print(""\nEnter your city: );
+String userCity =scanner.next();// reads one
+word(stops at whitespace)
+Syster.out.print1n("You live in:" +userCity);
+
+//---Reading a full line(including spaces)---
+scanner.nextline();// clear leftover newline from
+previuos next()
+System.out.print("Enter a sentence about yourself");
+String fullSentence = scanner.nextline();//read the entire line
+System.out.print1n("You said: "+fullsentence);
+
+scanner.close()
+
+      }
+   }
+
+//Operators and Expressions (+,-,*,/.<,,=,!= ||,&&)
+public class Main {
+    public static void main(String[] args) {
+    
+    int a = 10, b = 3;
+    System.out.print1n("a + b ="(a + b));
+//output : a + b = 13
+    System.out.print1n("a - b ="(a - b));
+output: a - b = 7
+    System.out.print1n("a * b ="(a * b));
+output: a * b = 30
+    System.out.print1n("a / b ="(a / b));
+b));//output a / b = 3
+    System.out.print1n("a % b ="(a % b));
+output a % b = 1
+    }
+}  
+
+double x = 10 , y =3;
+System.out.print1n("x +/ b ="(x / y ));//output x/
+y = 3.33333335
+
+        }
+    }  
